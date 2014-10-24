@@ -1,4 +1,0 @@
-dotTest
-=======
-
-examples from dotTest
