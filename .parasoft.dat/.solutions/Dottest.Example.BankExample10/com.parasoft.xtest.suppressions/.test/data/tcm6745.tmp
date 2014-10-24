@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="Dottest.Example.BankExample10/Dottest.Example.BankExample10/CreditCard.cs" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>교육용-local</Reason>
+         <User>ktj</User>
+         <Date>1407912644020</Date>
+         <Message>Enclose 'if' body with curly braces.</Message>
+         <Severity>3</Severity>
+         <RuleId>CS.BRM.CCB</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

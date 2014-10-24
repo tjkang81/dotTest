@@ -1,0 +1,7 @@
+D:\Examples\dottest\BankExample\CSharp\Dottest.Example.BankExample.DotTest\bin\Debug\Dottest.Example.BankExample.DotTest.dll
+D:\Examples\dottest\BankExample\CSharp\Dottest.Example.BankExample.DotTest\bin\Debug\Dottest.Example.BankExample.DotTest.pdb
+D:\Examples\dottest\BankExample\CSharp\Dottest.Example.BankExample.DotTest\bin\Debug\Dottest.Example.BankExample.exe
+D:\Examples\dottest\BankExample\CSharp\Dottest.Example.BankExample.DotTest\bin\Debug\Dottest.Example.BankExample.pdb
+D:\Examples\dottest\BankExample\CSharp\Dottest.Example.BankExample.DotTest\obj\Debug\Dottest.Example.BankExample10.DotTest.csprojResolveAssemblyReference.cache
+D:\Examples\dottest\BankExample\CSharp\Dottest.Example.BankExample.DotTest\obj\Debug\Dottest.Example.BankExample.DotTest.dll
+D:\Examples\dottest\BankExample\CSharp\Dottest.Example.BankExample.DotTest\obj\Debug\Dottest.Example.BankExample.DotTest.pdb
