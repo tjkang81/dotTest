@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><ResultsSession>
+   <SessionData configName="Recommended Rules" enabledAnalysis="Static" enabledHandlers="com.parasoft.xtest.checkers.api.standards.factory;com.parasoft.xtest.checkers.api.scope.factory;com.parasoft.xtest.checkers.api.metrics.factory" hasViols="true" header="??:Dottest.Example.BankExample9:?? ??true??false??" runId="" startTime="1414136543426" tool=".test">
+      <Authors>
+         <Author id="dev1" name="tjkang"/>
+      </Authors>
+      <Selection>
+         <Res id="Dottest.Example.BankExample9/Dottest.Example.BankExample9"/>
+      </Selection>
+      <XmlDataFiles file0="D:\Examples\dottest\BankExample\CSharp\.parasoft.dat\.solutions\Dottest.Example.BankExample9\session_results_report_xml\cs_violations.xml"/>
+   </SessionData>
+   <Locations>
+      <Loc fsPath="D:\Examples\dottest\BankExample\CSharp\Dottest.Example.BankExample\Transactions\OutcommingTransfer.cs" loc="Dottest.Example.BankExample9/Dottest.Example.BankExample9/Transactions/OutcommingTransfer.cs"/>
+      <Loc fsPath="D:\Examples\dottest\BankExample\CSharp\Dottest.Example.BankExample\BankAccount.cs" loc="Dottest.Example.BankExample9/Dottest.Example.BankExample9/BankAccount.cs"/>
+      <Loc fsPath="D:\Examples\dottest\BankExample\CSharp\Dottest.Example.BankExample\IExternalBank.cs" loc="Dottest.Example.BankExample9/Dottest.Example.BankExample9/IExternalBank.cs"/>
+      <Loc fsPath="D:\Examples\dottest\BankExample\CSharp\Dottest.Example.BankExample\Customer.cs" loc="Dottest.Example.BankExample9/Dottest.Example.BankExample9/Customer.cs"/>
+      <Loc fsPath="D:\Examples\dottest\BankExample\CSharp\Dottest.Example.BankExample\CreditCard.cs" loc="Dottest.Example.BankExample9/Dottest.Example.BankExample9/CreditCard.cs"/>
+      <Loc fsPath="D:\Examples\dottest\BankExample\CSharp\Dottest.Example.BankExample\CustomerGroup.cs" loc="Dottest.Example.BankExample9/Dottest.Example.BankExample9/CustomerGroup.cs"/>
+   </Locations>
+   <CodingStandards>
+      <HistoryData authTsks="21" authors="tjkang" cvdLn="956" startTime="1414136543426" totLn="956" totTsks="21"/>
+      <TestedFilesDetails>
+         <Total name="Suppressed / Total" supp="0" total="21">
+            <Project name="Dottest.Example.BankExample9" supp="0" total="21">
+               <Res name="Transactions" supp="0" total="3">
+                  <Res name="Withdraw.cs" supp="0" total="0"/>
+                  <Res loc="Dottest.Example.BankExample9/Dottest.Example.BankExample9/Transactions/OutcommingTransfer.cs" locType="sr" name="OutcommingTransfer.cs" supp="0" total="3"/>
+                  <Res name="Deposit.cs" supp="0" total="0"/>
+                  <Res name="ChangeOwnership.cs" supp="0" total="0"/>
+               </Res>
+               <Res loc="Dottest.Example.BankExample9/Dottest.Example.BankExample9/BankAccount.cs" locType="sr" name="BankAccount.cs" supp="0" total="8"/>
+               <Res name="AssemblyInfo.cs" supp="0" total="0"/>
+               <Res loc="Dottest.Example.BankExample9/Dottest.Example.BankExample9/IExternalBank.cs" locType="sr" name="IExternalBank.cs" supp="0" total="1"/>
+               <Res name="TransactionBase.cs" supp="0" total="0"/>
+               <Res loc="Dottest.Example.BankExample9/Dottest.Example.BankExample9/Customer.cs" locType="sr" name="Customer.cs" supp="0" total="1"/>
+               <Res loc="Dottest.Example.BankExample9/Dottest.Example.BankExample9/CreditCard.cs" locType="sr" name="CreditCard.cs" supp="0" total="6"/>
+               <Res loc="Dottest.Example.BankExample9/Dottest.Example.BankExample9/CustomerGroup.cs" locType="sr" name="CustomerGroup.cs" supp="0" total="2"/>
+               <Res name="Bank.cs" supp="0" total="0"/>
+            </Project>
+         </Total>
+      </TestedFilesDetails>
+   </CodingStandards>
+   <MetricsNormal/>
+   <MetricsDetailed/>
+</ResultsSession>

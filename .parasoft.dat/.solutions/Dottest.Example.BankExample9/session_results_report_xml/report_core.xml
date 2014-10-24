@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?><ResultsSession time="10/24/14 16:42:23" toolName="dotTEST" toolVer="9.5.10.16">
+   <TestConfig machine="ktj-PC" name="Recommended Rules" pseudoUrl=".test.builtin://Recommended Rules" user="ktj"/>
+   <Authors>
+      <Author id="dev1" name="tjkang"/>
+   </Authors>
+   <VersionInfos>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.execution" resultId="IExecutionViolation" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.execution" resultId="InsureViolation" ver="3"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.codereview" resultId="ICodeReviewUndefinedAuthorsInfo" ver="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.codereview" resultId="ICodeReviewScannerInfo" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.generation" resultId="IGenerationInfo" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.generation" resultId="IGenerationProjectInfo" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.scope" resultId="IScopeProjectInfo" ver="3"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricEstimationInfo" ver="2"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2"/>
+   </VersionInfos>
+   <mergePnt id="locationsDetails"/>
+   <mergePnt id="executedTestsDetails"/>
+   <Scope>
+      <ProjectInformations>
+         <ScopeProjectInfo fltFiles="12" fltLns="956" project="Dottest.Example.BankExample9/Dottest.Example.BankExample9" totFiles="12" totLns="956"/>
+      </ProjectInformations>
+   </Scope>
+   <CodingStandards ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:41">
+      <Goal mode="1" name="Static"/>
+      <Projects>
+         <Project bdCheckedFiles="0" bdTotalFiles="0" checkedFiles="12" checkedLns="956" name="Dottest.Example.BankExample9" qfixErrs="0" suppErrs="0" totErrs="21" totFiles="12" totLns="956"/>
+      </Projects>
+      <mergePnt id="csViolations"/>
+      <Supps/>
+      <mergePnt id="faDetails"/>
+      <mergePnt id="historyStandards"/>
+      <mergePnt id="testedFilesDetails"/>
+      <Rules>
+         <RulesList>
+            <Rule cat="BRM" desc="Avoid hiding methods from base classes" id="BRM.HBCM" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="BRM" desc="Always provide names for threads" id="BRM.APNFT" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="BRM" desc="Use 'L' instead of 'l' to express 'long' integer constants" id="BRM.LINUPPERCASE" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CMUG.CU" desc="Avoid throwing exceptions from static constructors" id="CMUG.CU.ATES" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CMUG.EVU" desc="Avoid never listened private events" id="CMUG.EVU.ANLPE" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CMUG.EVU" desc="Avoid never raised events" id="CMUG.EVU.ANRE" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CMUG.EVU" desc="Do not return values from events" id="CMUG.EVU.DNRVFE" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CMUG.EVU" desc="Event argument classes should extend System.EventArgs" id="CMUG.EVU.ECEE" sev="3">
+               <Stats authTot="1;" authUrg="1;" total="1"/>
+            </Rule>
+            <Rule cat="CMUG.FU" desc="Avoid unused private fields" id="CMUG.FU.AUPF" sev="2">
+               <Stats authTot="3;" authUrg="3;" total="3"/>
+            </Rule>
+            <Rule cat="CMUG.MU" desc="Avoid parameter swapping when overriding or implementing methods" id="CMUG.MU.APSM" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CMUG.MU" desc="Ensure that method return values are used" id="CMUG.MU.RETVAL" sev="1">
+               <Stats authTot="1;" authUrg="1;" total="1"/>
+            </Rule>
+            <Rule cat="CMUG.MU" desc="Avoid unused private methods" id="CMUG.MU.AUPM" sev="2">
+               <Stats authTot="2;" authUrg="2;" total="2"/>
+            </Rule>
+            <Rule cat="CS" desc="Avoid using very large methods" id="CS.MLC" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.BRM" desc="Avoid checked, unchecked, fixed and unsafe statements with empty bodies" id="CS.BRM.CPEB" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.BRM" desc="Avoid initialization statements with empty bodies" id="CS.BRM.IEB" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.BRM" desc="Always enclose iteration statements bodies with curly braces" id="CS.BRM.ICB" sev="3">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.BRM" desc="Always enclose using statement body with curly braces" id="CS.BRM.UCB" sev="3">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.EXCEPT" desc="Avoid clearing stack trace while rethrowing exceptions" id="CS.EXCEPT.RETHROW" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Avoid assignment within a condition" id="CS.PB.AWC" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Avoid conditional statements with empty bodies" id="CS.PB.CEB" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Avoid try, catch, finally and using statements with empty bodies" id="CS.PB.EEB" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Do not use floating point variables as loop indices" id="CS.PB.FPLI" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Avoid increment and decrement statements which have no effect" id="CS.PB.IDNE" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Review '?:' operator for potential misuse" id="CS.PB.MCO" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Do not increment or decrement on the same variable over multiple nested 'for' loop statements" id="CS.PB.NSIVFLN" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Do not compare value types to null" id="CS.PB.VTNV" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Avoid non-iterable loops" id="CS.PB.ANIL" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Do not use bitwise operators on bool operands" id="CS.PB.BITBOOL" sev="2">
+               <Stats authTot="1;" authUrg="1;" total="1"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Avoid confusing assignments to constructor arguments" id="CS.PB.CCA" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Check for 'null' when using 'as' operator" id="CS.PB.CNFA" sev="2">
+               <Stats authTot="1;" authUrg="1;" total="1"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Provide 'default:' for each 'switch' statement" id="CS.PB.DEFSWITCH" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Use initializer variable in a condition of 'for' loop" id="CS.PB.IVFLC" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Use initializer variable in 'for' loop iterator section" id="CS.PB.IVFLI" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Avoid inaccessible classes and structs" id="CS.PB.NACC" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Do not modify 'for' loop initializer variable in 'for' loop body" id="CS.PB.NSIVFLB" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Avoid using the unary + operator" id="CS.PB.PUO" sev="2">
+               <Stats authTot="1;" authUrg="1;" total="1"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Return empty collection instead of null" id="CS.PB.REA" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Do not use an integer outside the range of [0, 31] as the amount of a shift" id="CS.PB.SHIFT" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB" desc="Avoid wrong indentation of blockless statements" id="CS.PB.WIBS" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB.USC" desc="Avoid unreachable code" id="CS.PB.USC.UC" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PB.USC" desc="Avoid unreachable code in condition" id="CS.PB.USC.CC" sev="3">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.PE" desc="Verify FileDialog filter pattern" id="CS.PE.VFFP" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.SEC" desc="Do not re-create string from SecureString" id="CS.SEC.RSFSS" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.SEC" desc="Use SecureString instead of String for password" id="CS.SEC.SSFP" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.SERIAL" desc="Implement IDeserializationCallback for classes with NonSerialized fields" id="CS.SERIAL.IIDC" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.SERIAL" desc="Do not store non-serializable objects in Session" id="CS.SERIAL.SOIS" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.SERIAL" desc="Use the standard pattern while implementing ISerializable" id="CS.SERIAL.UIS" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.TRS" desc="Avoid lock statements with empty bodies" id="CS.TRS.LEB" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="CS.TRS" desc="Always enclose lock statement body with curly braces" id="CS.TRS.LCB" sev="3">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="EXCEPT" desc="Do not catch  'NullReferenceException''" id="EXCEPT.NCNRE" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="EXCEPT" desc="Avoid throwing exceptions from exceptions constructors" id="EXCEPT.TIEC" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="GC" desc="Avoid static collections which may lead to memory leakage" id="GC.ASC" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="GC" desc="Dispose IDisposable local variable" id="GC.UFID" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="IFD" desc="Avoid calling Finalize directly" id="IFD.ACFD" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="IFD" desc="Avoid throwing exceptions from the Dispose method implementations" id="IFD.ATED" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="IFD" desc="Avoid throwing exceptions from finalizers" id="IFD.ATEF" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="IFD" desc="Method 'Dispose(bool)' in method 'Dispose()' should be called with true and in finalizer with false" id="IFD.DBDTFF" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="IFD" desc="IDisposable.Dispose() implementation should call specific methods" id="IFD.DCDSF" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="IFD" desc="Always call Dispose(bool) in finalizer if IDisposable is implemented" id="IFD.DCID" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="IFD" desc="In 'Dispose(bool)' use input parameter to check if it is actually disposing" id="IFD.DDFODB" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="IFD" desc="Provide finalizers in types which use resources" id="IFD.SRIF" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="IFD" desc="Type that implements 'IDisposable' should contain and use field with information about dispose state" id="IFD.TICUFDS" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="IFD" desc="Type that implements 'IDisposable' should implement 'Dispose(bool)' method" id="IFD.TIID" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="IFD" desc="Call the Dispose method of the base class from the Dispose method in the derived class" id="IFD.CBDM" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="IFD" desc="Method 'Dispose()' should not be overridable" id="IFD.DNV" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="IFD" desc="Implement IDisposable when you provide a destructor (finalizer)" id="IFD.IDWF" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="IFD" desc="Method 'Dispose(bool)' should be private or protected" id="IFD.MDPP" sev="3">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="IFD" desc="Implement IDisposable in types which are using system resources" id="IFD.SRII" sev="4">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="OPU" desc="Avoid throwing exceptions from Equals methods" id="OPU.ATEE" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="OPU" desc="Avoid throwing exceptions from GetHashCode methods" id="OPU.ATEGH" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="OPU" desc="Avoid throwing exceptions from implicit type conversion operators" id="OPU.ATEI" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="OPU" desc="Avoid throwing exceptions in equality operators" id="OPU.ATEOE" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="OPU" desc="Compare parameter of Equals(Object) method to null" id="OPU.CPNEQ" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="OPU" desc="Override the GetHashCode method whenever you override the Equals method" id="OPU.IGHWE" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="OPU" desc="Do not override operator equality in reference types" id="OPU.AOERT" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="OPU" desc="Compare parameter type of Equals(Object) method" id="OPU.CPTEQ" sev="2">
+               <Stats authTot="1;" authUrg="1;" total="1"/>
+            </Rule>
+            <Rule cat="OPU" desc="Override Equals when implementing IComparable" id="OPU.IEWI" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="OPU" desc="Override Equals when you override operator ==" id="OPU.IEWOE" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="OPU" desc="Overload operators symmetrically" id="OPU.OOS" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="OPU" desc="Do not use ReferenceEquals() on value types" id="OPU.REVT" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="PB" desc="Avoid infinite recursive method calls" id="PB.AIRC" sev="1">
+               <Stats authTot="1;" authUrg="1;" total="1"/>
+            </Rule>
+            <Rule cat="PB" desc="Do not use value types as arguments of Monitor.Enter and Monitor.Exit" id="PB.ALVT" sev="1">
+               <Stats authTot="4;" authUrg="4;" total="4"/>
+            </Rule>
+            <Rule cat="PB" desc="Avoid throwing exceptions from ToString method" id="PB.ATETS" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="PB" desc="Verify number of arguments in Composite Formatting feature" id="PB.CFF" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="PB" desc="Close file system resource on local variable" id="PB.CFSRLV" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="PB" desc="Don't use illegal regular expression" id="PB.REG" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="PB" desc="Ensure static field is initialized before it is used" id="PB.SFAI" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="PB" desc="Ensure that method body used in ThreadStart/ParameterizedThreadStart is wrapped with 'try/catch'" id="PB.TMTC" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="PB" desc="Do not compare floating-point types for equality" id="PB.DNCF" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="PB" desc="Use TryParse method instead Parse on primitive types" id="PB.DNUP" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="PB" desc="Use String.IsNullOrEmpty to check if a string is null or empty" id="PB.INOE" sev="2">
+               <Stats authTot="1;" authUrg="1;" total="1"/>
+            </Rule>
+            <Rule cat="PB" desc="Do not check whether the result of 'String.IndexOf()' is positive or not" id="PB.STRIDX" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="PB.II" desc="Do not leave code which throws System.NotImplementedException" id="PB.II.NIE" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="PB.II" desc="Ensure that comments do not contain task tags" id="PB.II.TODO" sev="2">
+               <Stats authTot="1;" authUrg="1;" total="1"/>
+            </Rule>
+            <Rule cat="SEC" desc="Do not attempt to deny the SkipVerification security permission" id="SEC.ADSVSP" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SEC" desc="Close database connection local variable" id="SEC.CDBCLV" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SEC" desc="Close database resource local variable" id="SEC.CDRLV" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SEC" desc="Do not change the RSA/DSA KeySize property" id="SEC.DNCCKS" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SEC" desc="Avoid declaring classes outside namespaces" id="SEC.ACWNS" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SEC" desc="Do not use hardcoded string for password related parameters" id="SEC.HPW" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SEC" desc="Avoid using insecure algorithms for cryptography" id="SEC.ICA" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SEC" desc="Ensure all exceptions are either logged with a standard logger or rethrown" id="SEC.LGE" sev="2">
+               <Stats authTot="3;" authUrg="3;" total="3"/>
+            </Rule>
+            <Rule cat="SEC" desc="Use System.Security.Cryptography.RandomNumberGenerator instead of System.Random" id="SEC.USSCR" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SERIAL" desc="Ensure base classes are marked Serializable" id="SERIAL.BASECLASS" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SERIAL" desc="Ensure entire graph of object can be serialized" id="SERIAL.MEMBERFIELDS" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SERIAL" desc="Mark ISerializable.GetObjectData with SecurityPermissionAttribute" id="SERIAL.MGODWSPA" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SERIAL" desc="Call WriteObjectdata while implementing ISerializable.GetObjectData" id="SERIAL.GETOBJ" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SERIAL" desc="Always provide deserialization constructor when ISerializable interface is implemented" id="SERIAL.IDC" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SERIAL" desc="Ensure exception classes are marked Serializable" id="SERIAL.EXCEPTIONCLASS" sev="3">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SERIAL.XML" desc="Ensure that readonly property which is a collection does not expose any sensitive information" id="SERIAL.XML.CSG" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SERIAL.XML" desc="Ensure that property of collection type implements Add method and indexer" id="SERIAL.XML.CTS" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SERIAL.XML" desc="Make sure that type of serialized field/property is compatible with type used in XmlElementAttribute" id="SERIAL.XML.SOAFAP" sev="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SERIAL.XML" desc="Remove XmlAttribute from field and properties of comlex types" id="SERIAL.XML.ATTRIB" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SERIAL.XML" desc="Always provide default parameterless constructor in xml serialized class" id="SERIAL.XML.DCTOR" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SERIAL.XML" desc="Do not use interface type for xml serialized property or field" id="SERIAL.XML.IFAPS" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SERIAL.XML" desc="Make type used in xml serialization 'public'" id="SERIAL.XML.NPCS" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="SERIAL.XML" desc="Provide setter for xml serialized properties" id="SERIAL.XML.ROPS" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="TRS" desc="Avoid calling Thread.Abort()" id="TRS.THREADABORT" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="TRS" desc="Avoid calling Thread.Sleep()" id="TRS.THREADSLEEP" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="TUG.DCU" desc="Do not hide inherited fields" id="TUG.DCU.DNHF" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="TUG.NTU" desc="Avoid unused nested private types" id="TUG.NTU.AUPNT" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="TUG.SU" desc="Enforce custom attribute ImmutableAtomic" id="TUG.SU.IAS" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+            <Rule cat="VB.IFD" desc="Call the Finalize method of the base class from the finalizer in the derived class" id="VB.IFD.CBFM" sev="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Rule>
+         </RulesList>
+         <CategoriesList>
+            <Category desc="Collection Usage Guidelines" name="ARRU" total="6">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="BugDetective (License Required)" name="BD" total="25">
+               <Category desc="Threads &amp; Synchronization" name="BD.TRS" total="1">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Resources" name="BD.RES" total="1">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Collections" name="BD.CO" total="1">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Exceptions" name="BD.EXCEPT" total="2">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Security" name="BD.SECURITY" total="11">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Possible Bugs" name="BD.PB" total="9">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Better readability and maintainability" name="BRM" total="15">
+               <Category desc="Commentaries" name="BRM.CMT" total="2">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="CLS Compliance" name="CLS" total="19">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Type Member Usage Guidelines" name="CMUG" total="47">
+               <Category desc="Constructor Usage" name="CMUG.CU" total="5">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Field Usage" name="CMUG.FU" total="4">
+                  <Stats authTot="3;" authUrg="3;" total="3"/>
+               </Category>
+               <Category desc="Property Usage" name="CMUG.PRU" total="13">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Method Usage" name="CMUG.MU" total="10">
+                  <Stats authTot="3;" authUrg="3;" total="3"/>
+               </Category>
+               <Category desc="Event Usage" name="CMUG.EVU" total="15">
+                  <Stats authTot="1;" authUrg="1;" total="1"/>
+               </Category>
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="COM Guidelines" name="COM" total="5">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="CSharp only" name="CS" total="71">
+               <Category desc="Better readability and maintainability" name="CS.BRM" total="15">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Code Duplication Detection" name="CS.CDD" total="5">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Implementing Finalize and Dispose" name="CS.IFD" total="1">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Possible Bugs" name="CS.PB" total="26">
+                  <Category desc="Useless Code" name="CS.PB.USC" total="2">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Stats authTot="3;" authUrg="3;" total="3"/>
+               </Category>
+               <Category desc="Naming Guidelines" name="CS.NG" total="1">
+                  <Category desc="Variables naming" name="CS.NG.VAR" total="1">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Possiple Exception" name="CS.PE" total="1">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Security inspection" name="CS.SEC" total="2">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Exceptions" name="CS.EXCEPT" total="1">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Enum Usage" name="CS.EU" total="1">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Serialization Guidelines." name="CS.SERIAL" total="3">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Internationalization" name="CS.INTER" total="1">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Threads &amp; Synchronization" name="CS.TRS" total="3">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Type Member Usage Guidelines" name="CS.CMUG" total="1">
+                  <Category desc="Property Usage" name="CS.CMUG.PRU" total="1">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Object Oriented Metrics" name="CS.OOM" total="2">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Casting Types Guidelines" name="CT" total="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Error Raising and Handling" name="ERR" total="4">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Exceptions" name="EXCEPT" total="3">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="FxCop" name="FxCop" total="211">
+               <Category desc="Microsoft" name="FxCop.Microsoft" total="211">
+                  <Category desc="Globalization Rules" name="FxCop.Microsoft.Globalization" total="10">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Usage Rules" name="FxCop.Microsoft.Usage" total="39">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Naming Rules" name="FxCop.Microsoft.Naming" total="23">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Security Rules" name="FxCop.Microsoft.Security" total="41">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Portability Rules" name="FxCop.Microsoft.Portability" total="3">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Performance Rules" name="FxCop.Microsoft.Performance" total="16">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Mobility Rules" name="FxCop.Microsoft.Mobility" total="2">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Interoperability Rules" name="FxCop.Microsoft.Interoperability" total="16">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Design Rules" name="FxCop.Microsoft.Design" total="61">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Garbage Collector" name="GC" total="4">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Implementing Finalize and Dispose" name="IFD" total="19">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Internationalization" name="INTER" total="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Metrics" name="METRIC" total="1">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Metrics" name="METRICS" total="15">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Naming Guidelines" name="NG" total="120">
+               <Category desc="Attribute Naming" name="NG.AN" total="1">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Property Naming" name="NG.PRN" total="2">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Capitalization Styles" name="NG.CAPSTY" total="28">
+                  <Category desc="Camel Case for Names" name="NG.CAPSTY.CAMEL" total="2">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Pascal Case for Names" name="NG.CAPSTY.PASCAL" total="13">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Upper Case for Names" name="NG.CAPSTY.UPPER" total="13">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Class Naming" name="NG.CN" total="5">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Case Sensitivity" name="NG.CASE" total="5">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Event Naming" name="NG.EVN" total="5">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Avoiding Type Name Confusion" name="NG.ATNC" total="13">
+                  <Category desc="Use universal type names" name="NG.ATNC.UUTN" total="11">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Avoid language-specific names" name="NG.ATNC.ALSN" total="2">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Field Naming" name="NG.FN" total="1">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Parameter Naming" name="NG.PN" total="2">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Enumeration Type Naming" name="NG.ETN" total="4">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Avoid mysterious acronyms" name="NG.MYST" total="11">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Static Field Naming" name="NG.SFN" total="2">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Well known acronyms" name="NG.ACRO" total="11">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Abbreviations" name="NG.ABBR" total="11">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Word Choice" name="NG.WC" total="16">
+                  <Category desc="Conflicting with Keywords" name="NG.WC.KEYWORD" total="11">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Common Names" name="NG.WC.COMMON" total="5">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Interface Naming" name="NG.IN" total="2">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Namespace Naming" name="NG.NN" total="1">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Object Oriented Metrics" name="OOM" total="12">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Operator Overloading Usage Guidelines" name="OPU" total="20">
+               <Stats authTot="1;" authUrg="1;" total="1"/>
+            </Category>
+            <Category desc="Possible Bugs" name="PB" total="26">
+               <Category desc="Incomplete implementation" name="PB.II" total="2">
+                  <Stats authTot="1;" authUrg="1;" total="1"/>
+               </Category>
+               <Stats authTot="6;" authUrg="6;" total="6"/>
+            </Category>
+            <Category desc="Security Inspection (License Required)" name="SEC" total="33">
+               <Stats authTot="3;" authUrg="3;" total="3"/>
+            </Category>
+            <Category desc="Serialization Guidelines" name="SERIAL" total="14">
+               <Category desc="Xml Serialization Guidelines" name="SERIAL.XML" total="8">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Security Policy Rules (License Required)" name="SPR" total="6">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="StyleCop Rules" name="StyleCop" total="160">
+               <Category desc="Rules which ensure that the code is well-formatted and readable." name="StyleCop.RER" total="25">
+                  <Category desc="Method Parameter Placement" name="StyleCop.RER.MPP" total="9">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Strings" name="StyleCop.RER.STR" total="1">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Member Access" name="StyleCop.RER.MAC" total="2">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Statements" name="StyleCop.RER.STS" total="4">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Comments" name="StyleCop.RER.CMT" total="1">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Types" name="StyleCop.RER.TPS" total="2">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Regions" name="StyleCop.RER.REG" total="2">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Query Expressions" name="StyleCop.RER.QEX" total="4">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Rules which verify the content and formatting of code documentation." name="StyleCop.DRS" total="50">
+                  <Category desc="File Headers" name="StyleCop.DRS.FEH" total="10">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Element Documentation" name="StyleCop.DRS.EDN" total="40">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Rules which enforce code layout and line spacing." name="StyleCop.LRS" total="19">
+                  <Category desc="Line Spacing" name="StyleCop.LRS.LSP" total="14">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Curly Brackets" name="StyleCop.LRS.CUB" total="5">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Rules which enforce naming requirements for members, types, and variables." name="StyleCop.NGR" total="11">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Rules which verify the spacing placed between keywords and symbols in the code." name="StyleCop.SPR" total="28">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Rules which enforce a standard ordering scheme for code contents." name="StyleCop.ORG" total="14">
+                  <Category desc="Element Order" name="StyleCop.ORG.ELO" total="10">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Using Directives" name="StyleCop.ORG.USD" total="4">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Rules which improve code maintainability." name="StyleCop.MAR" total="13">
+                  <Category desc="Access Modifiers" name="StyleCop.MAR.ACM" total="2">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Debug Text" name="StyleCop.MAR.DET" total="3">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Parenthesis" name="StyleCop.MAR.PAR" total="5">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="File Contents" name="StyleCop.MAR.FIC" total="2">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Category desc="Removable Code" name="StyleCop.MAR.REC" total="1">
+                     <Stats authTot="0;" authUrg="0;" total="0"/>
+                  </Category>
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Threads &amp; Synchronization" name="TRS" total="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Type Usage Guidelines" name="TUG" total="20">
+               <Category desc="Struct Usage" name="TUG.SU" total="2">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Nested Type Usage" name="TUG.NTU" total="2">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Attribute Usage" name="TUG.AU" total="4">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Derived Class Usage" name="TUG.DCU" total="1">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Sealed Class Usage" name="TUG.SCU" total="2">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Base Class Usage" name="TUG.BCU" total="3">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Enum Usage" name="TUG.EU" total="6">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Visual Basic Only" name="VB" total="2">
+               <Category desc="Implementing Finalize and Dispose" name="VB.IFD" total="1">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Category desc="Better readability and maintainability" name="VB.BRM" total="1">
+                  <Stats authTot="0;" authUrg="0;" total="0"/>
+               </Category>
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+            <Category desc="Windows Presentation Foundation" name="WPF" total="2">
+               <Stats authTot="0;" authUrg="0;" total="0"/>
+            </Category>
+         </CategoriesList>
+         <SeverityList>
+            <Severity id="1">
+               <Stats authTot="6;" authUrg="6;" total="6"/>
+            </Severity>
+            <Severity id="2">
+               <Stats authTot="14;" authUrg="14;" total="14"/>
+            </Severity>
+            <Severity id="3">
+               <Stats authTot="1;" authUrg="1;" total="1"/>
+            </Severity>
+         </SeverityList>
+      </Rules>
+   </CodingStandards>
+   <Metrics ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:41">
+      <mergePnt id="metrics"/>
+   </Metrics>
+   <AssocUrls/>
+</ResultsSession>
